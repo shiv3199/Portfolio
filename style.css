@@ -13,12 +13,15 @@ body {
 }
 
 /* ---------- Navigation ---------- */
+
 nav {
   background: #0f172a;
   padding: 14px 0;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  position: sticky;
+  top: 0px;
 }
 .logo-left{
     color: whitesmoke;
